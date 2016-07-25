@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "gosacmau_source", "gosacmau_source\", "{17D1616E-D2ED-4254-B547-CE2A51E65811}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/gosacmau_source"
+		Debug.AspNetCompiler.PhysicalPath = "gosacmau_source\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\gosacmau_source\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/gosacmau_source"
+		Release.AspNetCompiler.PhysicalPath = "gosacmau_source\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\gosacmau_source\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64564"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D1616E-D2ED-4254-B547-CE2A51E65811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D1616E-D2ED-4254-B547-CE2A51E65811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
