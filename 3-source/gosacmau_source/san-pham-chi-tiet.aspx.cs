@@ -42,17 +42,18 @@ public partial class san_pham_chi_tiet : System.Web.UI.Page
                 //    lblContent.Text =
                 //        "Tranh dán tường là một sản phẩm rất “Hot” trong cuộc sống hiện nay. Nó sẽ đem lại cho không gian nhà bạn mát mẻ hơn, ấn tượng hơn và đặc biệt là tạo nguồn cảm hứng sáng tạo cho con em mình với nhiều tranh ảnh rất dể thương dành cho trẻ em.<br/><br/>Tranh dán tường có 2 loại:<br/><br/><ul><li>In trên giấy Hàn Quốc: Giá 290.00đ/m2<ul style='list-style: none;'><li>+ Có độ bền lâu.</li><li>+ Dể dán trên mọi bề mặt: Tường gổ, kính, thạch cao…</li><li>+ Không chóa với ánh đèn.</li></ul></li><li>In trên giấy PP:Giá 180.000đ/m2<ul style='list-style: none;'><li>+ Độ nét cao.</li><li>+ Độ bền hạn chế, Không dán được trên nền giấy đã dán trước đó.</li><li>+ Bị chóa với ánh đèn.</li></ul></li><li>Đặc tính chung:<ul style='list-style: none;'><li>+ Dể dán, thân thiện với môi trường.</li><li>+ Tạo không gian thoáng mát, gần gủi với thiên nhiên.</li><li>+ Có nhiều hình ảnh để lựa chọn.</li><li>+ Kích thước in theo yêu cầu.</li><li>+ ...</li></ul></li></ul>";
                 //}
-                var dv3 = oProductCategory.ProductCategorySelectOne(row["RootID"].ToString()).DefaultView;
-                var dv4 = oProductCategory.ProductCategorySelectOne(Request.QueryString["pci"]).DefaultView;
-                if (dv3[0]["Content"].ToString().Equals(""))
-                    lblContent.Visible = false;
-                else
-                    lblContent.Text = dv3[0]["Content"].ToString();
 
-                if (dv4[0]["Content"].ToString().Equals(""))
-                    lblContent1.Visible = false;
-                else
-                    lblContent1.Text = dv4[0]["Content"].ToString();
+                //var dv3 = oProductCategory.ProductCategorySelectOne(row["RootID"].ToString()).DefaultView;
+                //var dv4 = oProductCategory.ProductCategorySelectOne(Request.QueryString["pci"]).DefaultView;
+                //if (dv3[0]["Content"].ToString().Equals(""))
+                //    lblContent.Visible = false;
+                //else
+                //    lblContent.Text = dv3[0]["Content"].ToString();
+
+                //if (dv4[0]["Content"].ToString().Equals(""))
+                //    lblContent1.Visible = false;
+                //else
+                //    lblContent1.Text = dv4[0]["Content"].ToString();
             }
             else
             {
