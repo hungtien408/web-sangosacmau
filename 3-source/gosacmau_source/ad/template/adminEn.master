@@ -149,6 +149,18 @@
                     <asp:RadMenuItem runat="server" Text="Banner" PostBack="False" Font-Bold="True"
                         NavigateUrl="~/ad/single/bannermain.aspx">
                     </asp:RadMenuItem>
+                    <asp:RadMenuItem runat="server" Owner="RadMenu1" PostBack="False" Text="Intro"
+                        Font-Bold="True">
+                        <Items>
+                            <asp:RadMenuItem runat="server" NavigateUrl="~/ad/single/bannergiay.aspx" Text="Banner Giấy">
+                            </asp:RadMenuItem>
+                            <asp:RadMenuItem runat="server" IsSeparator="True">
+                            </asp:RadMenuItem>
+                            <asp:RadMenuItem runat="server" NavigateUrl="~/ad/single/bannergo.aspx"
+                                Text="Banner Gỗ">
+                            </asp:RadMenuItem>
+                        </Items>
+                    </asp:RadMenuItem>
                 </Items>
             </asp:RadMenu>
         </div>
