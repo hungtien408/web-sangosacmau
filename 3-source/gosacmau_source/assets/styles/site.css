@@ -1738,6 +1738,7 @@ body .mobilep-right {
     border-top:1px solid #8080b8;
     border-bottom:1px solid #8080b8;
     margin: 30px 0 20px 0;
+    padding: 0;
 }
 #main-intro .center > ul li{
     background: url(../images/icon-2.png) no-repeat left center;
