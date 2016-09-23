@@ -87,7 +87,7 @@
                             <li><strong>Giá bán:</strong> <del>
                                 <%# (string.Format("{0:##,###.##}", Eval("SavePrice")).Replace('.', '*').Replace(',', '.').Replace('*', ',')) %><%# string.IsNullOrEmpty(Eval("SavePrice").ToString()) ? "" : "đ"%></del>
                                 <strong>
-                                    <%# string.IsNullOrEmpty(Eval("OtherPrice").ToString()) ?(string.Format("{0:##,###.##}", Eval("Price")).Replace('.', '*').Replace(',', '.').Replace('*', ',')) :  Eval("OtherPrice") %><%# string.IsNullOrEmpty(Eval("Price").ToString()) ? "" : "đ"%></strong></li>
+                                    <%# string.IsNullOrEmpty(Eval("OtherPrice").ToString()) ?(string.Format("{0:##,###.##}", Eval("Price")).Replace('.', '*').Replace(',', '.').Replace('*', ',')) :  Eval("OtherPrice") %><%# string.IsNullOrEmpty(Eval("Price").ToString()) ? "<span style='color: #f00;font-size: 16px;font-style: italic;font-weight: 300;'>Liên hệ</span>" : "đ"%></strong></li>
                         </ul>
                         <p style="font-size: 16px;">
                             <%--<strong>Liên hệ trực tiếp để có giá tốt nhất</strong><br />--%>
